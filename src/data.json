@@ -1,17 +1,113 @@
 {
-    "title": "Lorem ipsum",
-    "description": "Example description",
-    "begin": "Let's go!",
+    "title": "Which type are you?",
+    "description": "A lighthearted game where you find out which direction you lean toward.",
+    "begin": "Let the game begin!",
     "yes": "Yes",
     "no": "No",
-    "result_text": "Successful {result} by {percent} with placeholders",
-    "result_description": "Same {result} and {percent} placeholders are usable here as well",
-    "again": "Again",
-    "possible_results": [ "All", "possible", "results" ],
+    "result_text": "The final result: {result} — {percent} ratio!",
+    "result_description": "Your result: {result}. This was reflected in {percent}% of all your answers.",
+    "again": "Play again",
+    "possible_results": [ "Adventurer", "Homebody", "Dreamer", "Realist", "Artist", "Logical" ],
     "data": [
         {
-            "question": "Demo question with 'All' as yes",
-            "yes": ["All"]
+            "question": "Do you like discovering new places?",
+            "yes": ["Adventurer"]
+        },
+        {
+            "question": "Do you enjoy staying at home with a good book or movie?",
+            "yes": ["Homebody"]
+        },
+        {
+            "question": "Do you often dream about future plans?",
+            "yes": ["Dreamer"]
+        },
+        {
+            "question": "Is a practical and logical approach important to you?",
+            "yes": ["Realist", "Logical"]
+        },
+        {
+            "question": "Do you enjoy creating something (drawing, writing, music)?",
+            "yes": ["Artist"]
+        },
+        {
+            "question": "Do you feel better in company than alone?",
+            "yes": ["Adventurer"]
+        },
+        {
+            "question": "Do you enjoy calm, routine everyday life?",
+            "yes": ["Homebody"]
+        },
+        {
+            "question": "Are you more likely to listen to your heart than your head?",
+            "yes": ["Dreamer"]
+        },
+        {
+            "question": "Can you make decisions quickly and rationally?",
+            "yes": ["Realist", "Logical"]
+        },
+        {
+            "question": "Do you enjoy creative problem-solving?",
+            "yes": ["Artist", "Logical"]
+        },
+        {
+            "question": "Do you make friends easily with strangers?",
+            "yes": ["Adventurer"]
+        },
+        {
+            "question": "Do you like everything to be predictable and planned?",
+            "yes": ["Homebody", "Realist"]
+        },
+        {
+            "question": "Do you often fantasize about things that haven’t happened yet?",
+            "yes": ["Dreamer"]
+        },
+        {
+            "question": "Do you enjoy logic puzzles and riddles?",
+            "yes": ["Logical"]
+        },
+        {
+            "question": "Do you like visiting art galleries and exhibitions?",
+            "yes": ["Artist"]
+        },
+        {
+            "question": "Do you enjoy spontaneous adventures?",
+            "yes": ["Adventurer"]
+        },
+        {
+            "question": "Do you feel good spending long periods at home?",
+            "yes": ["Homebody"]
+        },
+        {
+            "question": "Do you enjoy immersing yourself in tales, fantasy or sci-fi worlds?",
+            "yes": ["Dreamer", "Artist"]
+        },
+        {
+            "question": "Is order and structure important to you?",
+            "yes": ["Realist", "Logical"]
+        },
+        {
+            "question": "Do you like writing, drawing, taking photos, or creating in other ways?",
+            "yes": ["Artist"]
+        },
+        {
+            "question": "Are you open to meeting new people and cultures?",
+            "yes": ["Adventurer"]
+        },
+        {
+            "question": "Do you prefer home comfort over traveling?",
+            "yes": ["Homebody"]
+        },
+        {
+            "question": "Do you tend to get lost in your thoughts, even for minutes at a time?",
+            "yes": ["Dreamer"]
+        },
+        {
+            "question": "Do you prefer decisions based on common sense?",
+            "yes": ["Realist"]
+        },
+        {
+            "question": "Do you enjoy having creative freedom?",
+            "yes": ["Artist"]
         }
     ]
 }
