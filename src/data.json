@@ -1,17 +1,53 @@
 {
-    "title": "Lorem ipsum",
-    "description": "Example description",
-    "begin": "Let's go!",
-    "yes": "Yes",
-    "no": "No",
-    "result_text": "Successful {result} by {percent} with placeholders",
-    "result_description": "Same {result} and {percent} placeholders are usable here as well",
-    "again": "Again",
-    "possible_results": [ "All", "possible", "results" ],
+    "title": "Melyik budapesti metróvonal vagy?",
+    "description": "Minden este álmatlanul hagy a kérdés, hogy ha a nagyapádnak áramszedője lett volna, akkor te éppen melyik metróvonal lennél? Ez a tudományosan alátámasztott kvíz most segít enyhíteni az egzisztenciális válságodon!",
+    "begin": "Kezdjük!",
+    "yes": "Igen",
+    "no": "Nem",
+    "result_text": "Te az {result} metróvonal vagy!",
+    "result_description": "Szinte hihetetlen, de a válaszaid {percent}%-ban megegyeznek azzal, amit az {result} vonal válaszolna ugyanezekre a kérdésekre!",
+    "again": "Újra",
+    "possible_results": [ "M1" , "M2" , "M3", "M4" ],
     "data": [
         {
-            "question": "Demo question with 'All' as yes",
-            "yes": ["All"]
+            "question": "Időnként kijövök a napfényre.",
+            "yes": ["M2", "M3"]
+        },
+        {
+            "question": "Szeretem addig halogatni a dolgokat, ameddig már nem lehet tovább.",
+            "yes": ["M3"]
+        },
+        {
+            "question": "Kezet fognék I. Ferenc Józseffel.",
+            "yes": ["M1"]
+        },
+        {
+            "question": "Kádár alatt minden jobb volt.",
+            "yes": ["M2", "M3"]
+        },
+        {
+            "question": "Kedvenc színem a vörös. 🟥",
+            "yes": ["M2"]
+        },
+        {
+            "question": "Szívesen átúsznám a Dunát.",
+            "yes": ["M2", "M4"]
+        },
+        {
+            "question": "Szeretem, ha a számítógépek gondolkoznak helyettem, nincsenek saját gondolataim.",
+            "yes": ["M4"]
+        },
+        {
+            "question": "Az Andrássy út Budapest egyik, ha nem a legszebb helye.",
+            "yes": ["M1"]
+        },
+        {
+            "question": "Sokszor tartanak másnak, mint ami vagyok.",
+            "yes": ["M1"]
+        },
+        {
+            "question": "Oui, je peux vous donner une baguette?",
+            "yes": ["M2", "M4"]
         }
     ]
 }
