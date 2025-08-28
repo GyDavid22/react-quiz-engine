@@ -1,0 +1,17 @@
+{
+    "title": "Lorem ipsum",
+    "description": "Example description",
+    "begin": "Let's go!",
+    "yes": "Yes",
+    "no": "No",
+    "result_text": "Successful {result} by {percent} with placeholders",
+    "result_description": "Same {result} and {percent} placeholders are usable here as well",
+    "again": "Again",
+    "possible_results": [ "All", "possible", "results" ],
+    "data": [
+        {
+            "question": "Demo question with 'All' as yes",
+            "yes": ["All"]
+        }
+    ]
+}
