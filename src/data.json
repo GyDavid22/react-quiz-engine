@@ -1,53 +1,113 @@
 {
-    "title": "Melyik budapesti metróvonal vagy?",
-    "description": "Minden este álmatlanul hagy a kérdés, hogy ha a nagyapádnak áramszedője lett volna, akkor te éppen melyik metróvonal lennél? Ez a tudományosan alátámasztott kvíz most segít enyhíteni az egzisztenciális válságodon!",
-    "begin": "Kezdjük!",
+    "title": "Melyik kenyér lennél?",
+    "description": "Ha kenyérként születnél újra, vajon ropogós bagett, bölcs kovászos vagy épp játékos kalács lennél? Ez a kvíz most segít megtudni!",
+    "begin": "Kezdjük a dagasztást!",
     "yes": "Igen",
     "no": "Nem",
-    "result_text": "Te az {result} metróvonal vagy!",
-    "result_description": "Szinte hihetetlen, de a válaszaid {percent}%-ban megegyeznek azzal, amit az {result} vonal válaszolna ugyanezekre a kérdésekre!",
-    "again": "Újra",
-    "possible_results": [ "M1" , "M2" , "M3", "M4" ],
+    "result_text": "Te a(z) {result} kenyér vagy!",
+    "result_description": "A válaszaid {percent}%-ban megegyeznek azzal, amit a(z) {result} kenyér válaszolna ugyanezekre a kérdésekre!",
+    "again": "Újrasütöm",
+    "possible_results": [
+        "kovászos kenyér",
+        "fehér kenyér",
+        "bagett",
+        "magvas kenyér",
+        "rozskenyér",
+        "kalács",
+        "pita",
+        "focaccia"
+    ],
     "data": [
         {
-            "question": "Időnként kijövök a napfényre.",
-            "yes": ["M2", "M3"]
+            "question": "Fontos nekem a hagyomány és a múlt tisztelete.",
+            "yes": [
+                "kovászos kenyér",
+                "rozskenyér"
+            ]
         },
         {
-            "question": "Szeretem addig halogatni a dolgokat, ameddig már nem lehet tovább.",
-            "yes": ["M3"]
+            "question": "Az egyszerűség és letisztultság jellemez.",
+            "yes": [
+                "fehér kenyér",
+                "pita"
+            ]
         },
         {
-            "question": "Kezet fognék I. Ferenc Józseffel.",
-            "yes": ["M1"]
+            "question": "Kicsit mediterrán hangulatom van.",
+            "yes": [
+                "focaccia",
+                "bagett"
+            ]
         },
         {
-            "question": "Kádár alatt minden jobb volt.",
-            "yes": ["M2", "M3"]
+            "question": "Szeretek laktató és tartalmas lenni.",
+            "yes": [
+                "magvas kenyér",
+                "rozskenyér"
+            ]
         },
         {
-            "question": "Kedvenc színem a vörös. 🟥",
-            "yes": ["M2"]
+            "question": "Időnként inkább könnyed és édes oldalamat mutatom.",
+            "yes": [
+                "kalács",
+                "pita"
+            ]
         },
         {
-            "question": "Szívesen átúsznám a Dunát.",
-            "yes": ["M2", "M4"]
+            "question": "Szívesen kísérek bort és sajtot.",
+            "yes": [
+                "bagett",
+                "focaccia"
+            ]
         },
         {
-            "question": "Szeretem, ha a számítógépek gondolkoznak helyettem, nincsenek saját gondolataim.",
-            "yes": ["M4"]
+            "question": "Néha savanyú vagy komoly a hangulatom.",
+            "yes": [
+                "kovászos kenyér",
+                "rozskenyér"
+            ]
         },
         {
-            "question": "Az Andrássy út Budapest egyik, ha nem a legszebb helye.",
-            "yes": ["M1"]
+            "question": "Szeretem, ha sokféle dolog összekeveredik bennem.",
+            "yes": [
+                "magvas kenyér",
+                "focaccia"
+            ]
         },
         {
-            "question": "Sokszor tartanak másnak, mint ami vagyok.",
-            "yes": ["M1"]
+            "question": "Inkább gyors és praktikus vagyok, mint kifinomult.",
+            "yes": [
+                "pita",
+                "fehér kenyér"
+            ]
         },
         {
-            "question": "Oui, je peux vous donner une baguette?",
-            "yes": ["M2", "M4"]
+            "question": "Elegáns és nemzetközi hangulatot árasztok.",
+            "yes": [
+                "bagett",
+                "focaccia"
+            ]
+        },
+        {
+            "question": "Ha kell, kibírom magam kenyérkosár nélkül is.",
+            "yes": [
+                "pita",
+                "focaccia"
+            ]
+        },
+        {
+            "question": "Néha olyan vagyok, mint a jó bor: idő kell, hogy igazán élvezhető legyek.",
+            "yes": [
+                "kovászos kenyér",
+                "rozskenyér"
+            ]
+        },
+        {
+            "question": "Szeretek ünnepi asztalon megjelenni.",
+            "yes": [
+                "kalács",
+                "bagett"
+            ]
         }
     ]
 }
