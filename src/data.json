@@ -1,112 +1,107 @@
 {
-    "title": "Melyik kenyér lennél?",
-    "description": "Ha kenyérként születnél újra, vajon ropogós bagett, bölcs kovászos vagy épp játékos kalács lennél? Ez a kvíz most segít megtudni!",
-    "begin": "Kezdjük a dagasztást!",
+    "title": "Melyik autó lennél?",
+    "description": "Fedezd fel, melyik ikonikus autómodell felelne meg a legjobban a személyiségednek és az életstílusodnak!",
+    "begin": "Kezdjük!",
     "yes": "Igen",
     "no": "Nem",
-    "result_text": "Te a(z) {result} kenyér vagy!",
-    "result_description": "A válaszaid {percent}%-ban megegyeznek azzal, amit a(z) {result} kenyér válaszolna ugyanezekre a kérdésekre!",
-    "again": "Újrasütöm",
+    "result_text": "Te egy {result} vagy! ({percent}% egyetértés)",
+    "result_description": "A tipped alapján a(z) {result} a tökéletes hozzád illő autó. {percent}% volt a megegyezés a jellemzőkben.",
+    "again": "Újra",
     "possible_results": [
-        "kovászos kenyér",
-        "fehér kenyér",
-        "bagett",
-        "magvas kenyér",
-        "rozskenyér",
-        "kalács",
-        "pita",
-        "focaccia"
+        "Mercedes-Benz 300 SL",
+        "Land Rover Defender",
+        "Porsche 911",
+        "Volkswagen Bogár",
+        "Toyota Hilux",
+        "Mazda MX-5",
+        "Volvo 240"
     ],
     "data": [
         {
-            "question": "Fontos nekem a hagyomány és a múlt tisztelete.",
+            "question": "Fontosabb számodra az elegancia és a stílus, mint a praktikusság?",
             "yes": [
-                "kovászos kenyér",
-                "rozskenyér"
+                "Mercedes-Benz 300 SL",
+                "Porsche 911"
             ]
         },
         {
-            "question": "Az egyszerűség és letisztultság jellemez.",
+            "question": "Szeretnél feltörni a felhők közé egy nyitott tetővel?",
             "yes": [
-                "fehér kenyér",
-                "pita"
+                "Mercedes-Benz 300 SL",
+                "Porsche 911",
+                "Mazda MX-5"
             ]
         },
         {
-            "question": "Kicsit mediterrán hangulatom van.",
+            "question": "Az erő és a terepjáró képesség fontosabb számodra, mint a kényelem és a gyorsaság?",
             "yes": [
-                "focaccia",
-                "bagett"
+                "Land Rover Defender",
+                "Toyota Hilux"
             ]
         },
         {
-            "question": "Szeretek laktató és tartalmas lenni.",
+            "question": "Egy örök életű, megbízható és praktikus járművet keresel?",
             "yes": [
-                "magvas kenyér",
-                "rozskenyér"
+                "Volkswagen Bogár",
+                "Toyota Hilux",
+                "Volvo 240"
             ]
         },
         {
-            "question": "Időnként inkább könnyed és édes oldalamat mutatom.",
+            "question": "Számít, hogy a jármű ikonikus designnal rendelkezzen és mindenki felismerje?",
             "yes": [
-                "kalács",
-                "pita"
+                "Mercedes-Benz 300 SL",
+                "Volkswagen Bogár",
+                "Porsche 911"
             ]
         },
         {
-            "question": "Szívesen kísérek bort és sajtot.",
+            "question": "A vezetési élmény és a kanyargós utak az igazi szenvedélyed?",
             "yes": [
-                "bagett",
-                "focaccia"
+                "Porsche 911",
+                "Mazda MX-5"
             ]
         },
         {
-            "question": "Néha savanyú vagy komoly a hangulatom.",
+            "question": "A minimalizmus és a funkcionalitás a jelszavad, nem a fényűzés?",
             "yes": [
-                "kovászos kenyér",
-                "rozskenyér"
+                "Volkswagen Bogár",
+                "Volvo 240"
             ]
         },
         {
-            "question": "Szeretem, ha sokféle dolog összekeveredik bennem.",
+            "question": "Képes lennél egy egyszerű, de szívós szerkezetet szeretni, mint egy saját gyermekedet?",
             "yes": [
-                "magvas kenyér",
-                "focaccia"
+                "Land Rover Defender",
+                "Toyota Hilux",
+                "Volkswagen Bogár"
             ]
         },
         {
-            "question": "Inkább gyors és praktikus vagyok, mint kifinomult.",
+            "question": "A biztonság a legfontosabb szempont számodra?",
             "yes": [
-                "pita",
-                "fehér kenyér"
+                "Volvo 240"
             ]
         },
         {
-            "question": "Elegáns és nemzetközi hangulatot árasztok.",
+            "question": "Inkább a örömöt és a könnyedséget keresed a vezetésben, mint a csúcstechnológiát?",
             "yes": [
-                "bagett",
-                "focaccia"
+                "Mazda MX-5",
+                "Volkswagen Bogár"
             ]
         },
         {
-            "question": "Ha kell, kibírom magam kenyérkosár nélkül is.",
+            "question": "Egy jármű, ami szó szerint bárhova elvisz, akár egy hegy tetejére is, ideális lenne?",
             "yes": [
-                "pita",
-                "focaccia"
+                "Land Rover Defender",
+                "Toyota Hilux"
             ]
         },
         {
-            "question": "Néha olyan vagyok, mint a jó bor: idő kell, hogy igazán élvezhető legyek.",
+            "question": "Egy kis visszavonulást és alázatot preferálsz a feltűnővagy mutatványosságnál?",
             "yes": [
-                "kovászos kenyér",
-                "rozskenyér"
-            ]
-        },
-        {
-            "question": "Szeretek ünnepi asztalon megjelenni.",
-            "yes": [
-                "kalács",
-                "bagett"
+                "Volvo 240",
+                "Toyota Hilux"
             ]
         }
     ]
