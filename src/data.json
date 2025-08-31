@@ -1,107 +1,126 @@
 {
-    "title": "Melyik autó lennél?",
-    "description": "Fedezd fel, melyik ikonikus autómodell felelne meg a legjobban a személyiségednek és az életstílusodnak!",
+    "title": "Melyik kötélcsomó vagy?",
+    "description": "Válaszolj a kérdésekre, és kiderül, melyik híres kötélcsomó felel meg legjobban a személyiségednek.",
     "begin": "Kezdjük!",
     "yes": "Igen",
     "no": "Nem",
-    "result_text": "Te egy {result} vagy! ({percent}% egyetértés)",
-    "result_description": "A tipped alapján a(z) {result} a tökéletes hozzád illő autó. {percent}% volt a megegyezés a jellemzőkben.",
-    "again": "Újra",
+    "result_text": "A(z) {result} csomó vagy, {percent}% biztonsággal!",
+    "result_description": "A válaszaid alapján a(z) {result} csomó illik rád, {percent}% pontossággal.",
+    "again": "Újra!",
     "possible_results": [
-        "Mercedes-Benz 300 SL",
-        "Land Rover Defender",
-        "Porsche 911",
-        "Volkswagen Bogár",
-        "Toyota Hilux",
-        "Mazda MX-5",
-        "Volvo 240"
+        "Pákász-csomó",
+        "Palstek (Bowline)",
+        "Dupla halászcsomó",
+        "Nyolcas csomó",
+        "Két félcsomó",
+        "Alpesi pillangó",
+        "Horgonycsomó",
+        "Csúszócsomó"
     ],
     "data": [
         {
-            "question": "Fontosabb számodra az elegancia és a stílus, mint a praktikusság?",
+            "question": "Fontos számodra a biztonság és a stabilitás?",
             "yes": [
-                "Mercedes-Benz 300 SL",
-                "Porsche 911"
+                "Nyolcas csomó",
+                "Palstek (Bowline)"
             ]
         },
         {
-            "question": "Szeretnél feltörni a felhők közé egy nyitott tetővel?",
+            "question": "Szereted a régi, hagyományos megoldásokat?",
             "yes": [
-                "Mercedes-Benz 300 SL",
-                "Porsche 911",
-                "Mazda MX-5"
+                "Pákász-csomó",
+                "Horgonycsomó"
             ]
         },
         {
-            "question": "Az erő és a terepjáró képesség fontosabb számodra, mint a kényelem és a gyorsaság?",
+            "question": "Rugalmas vagy, és könnyen alkalmazkodsz új helyzetekhez?",
             "yes": [
-                "Land Rover Defender",
-                "Toyota Hilux"
+                "Csúszócsomó",
+                "Két félcsomó"
             ]
         },
         {
-            "question": "Egy örök életű, megbízható és praktikus járművet keresel?",
+            "question": "Erősen tartasz, még ha nagy terhelés alatt is vagy?",
             "yes": [
-                "Volkswagen Bogár",
-                "Toyota Hilux",
-                "Volvo 240"
+                "Dupla halászcsomó",
+                "Alpesi pillangó"
             ]
         },
         {
-            "question": "Számít, hogy a jármű ikonikus designnal rendelkezzen és mindenki felismerje?",
+            "question": "Kedveled az egyszerűséget és az eleganciát?",
             "yes": [
-                "Mercedes-Benz 300 SL",
-                "Volkswagen Bogár",
-                "Porsche 911"
+                "Palstek (Bowline)",
+                "Nyolcas csomó"
             ]
         },
         {
-            "question": "A vezetési élmény és a kanyargós utak az igazi szenvedélyed?",
+            "question": "Gyakran vállalsz támogató, háttérszerepet?",
             "yes": [
-                "Porsche 911",
-                "Mazda MX-5"
+                "Két félcsomó",
+                "Pákász-csomó"
             ]
         },
         {
-            "question": "A minimalizmus és a funkcionalitás a jelszavad, nem a fényűzés?",
+            "question": "Szereted, ha gyorsan és praktikusan működnek a dolgok?",
             "yes": [
-                "Volkswagen Bogár",
-                "Volvo 240"
+                "Csúszócsomó",
+                "Két félcsomó"
             ]
         },
         {
-            "question": "Képes lennél egy egyszerű, de szívós szerkezetet szeretni, mint egy saját gyermekedet?",
+            "question": "Kreatív és sokoldalú személyiségnek tartod magad?",
             "yes": [
-                "Land Rover Defender",
-                "Toyota Hilux",
-                "Volkswagen Bogár"
+                "Alpesi pillangó",
+                "Palstek (Bowline)"
             ]
         },
         {
-            "question": "A biztonság a legfontosabb szempont számodra?",
+            "question": "Fontos, hogy könnyen kioldható legyél?",
             "yes": [
-                "Volvo 240"
+                "Csúszócsomó",
+                "Palstek (Bowline)"
             ]
         },
         {
-            "question": "Inkább a örömöt és a könnyedséget keresed a vezetésben, mint a csúcstechnológiát?",
+            "question": "Megbízható vagy extrém körülmények között is?",
             "yes": [
-                "Mazda MX-5",
-                "Volkswagen Bogár"
+                "Dupla halászcsomó",
+                "Alpesi pillangó"
             ]
         },
         {
-            "question": "Egy jármű, ami szó szerint bárhova elvisz, akár egy hegy tetejére is, ideális lenne?",
+            "question": "Szeretsz összekötni és kapcsolatokat létrehozni emberek között?",
             "yes": [
-                "Land Rover Defender",
-                "Toyota Hilux"
+                "Dupla halászcsomó",
+                "Horgonycsomó"
             ]
         },
         {
-            "question": "Egy kis visszavonulást és alázatot preferálsz a feltűnővagy mutatványosságnál?",
+            "question": "Fontos számodra a rend és a szabályosság?",
             "yes": [
-                "Volvo 240",
-                "Toyota Hilux"
+                "Nyolcas csomó",
+                "Alpesi pillangó"
+            ]
+        },
+        {
+            "question": "Gyakran segítesz másoknak elindulni vagy biztos pontot nyújtani?",
+            "yes": [
+                "Horgonycsomó",
+                "Palstek (Bowline)"
+            ]
+        },
+        {
+            "question": "Szereted a gyors, ideiglenes megoldásokat?",
+            "yes": [
+                "Csúszócsomó",
+                "Két félcsomó"
+            ]
+        },
+        {
+            "question": "Hajlamos vagy inkább kitartani, mint feladni?",
+            "yes": [
+                "Dupla halászcsomó",
+                "Pákász-csomó"
             ]
         }
     ]
