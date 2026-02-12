@@ -1,126 +1,108 @@
 {
-    "title": "Melyik kötélcsomó vagy?",
-    "description": "Válaszolj a kérdésekre, és kiderül, melyik híres kötélcsomó felel meg legjobban a személyiségednek.",
-    "begin": "Kezdjük!",
-    "yes": "Igen",
-    "no": "Nem",
-    "result_text": "A(z) {result} csomó vagy, {percent}% biztonsággal!",
-    "result_description": "A válaszaid alapján a(z) {result} csomó illik rád, {percent}% pontossággal.",
-    "again": "Újra!",
+    "title": "Melyik AI Szendvics vibe vagy?",
+    "description": "Tudd meg, a hármunk közül kire hasonlítasz legjobban a beszélgetési stílusod alapján.",
+    "begin": "Locked in? Indul a vibe check.",
+    "yes": "Yes",
+    "no": "No",
+    "result_text": "Te leginkább {result} vagy, kb. {percent}% egyezéssel.",
+    "result_description": "A válaszaid alapján a legerősebb vibe: {result} ({percent}%).",
+    "again": "Újrapróbálom",
     "possible_results": [
-        "Pákász-csomó",
-        "Palstek (Bowline)",
-        "Dupla halászcsomó",
-        "Nyolcas csomó",
-        "Két félcsomó",
-        "Alpesi pillangó",
-        "Horgonycsomó",
-        "Csúszócsomó"
+        "22david22",
+        "Mircica",
+        "gyenesdora0"
     ],
     "data": [
         {
-            "question": "Fontos számodra a biztonság és a stabilitás?",
+            "question": "Szereted, ha a beszélgetés 100%-on pörög és tele van gen-alpha szlenggel?",
             "yes": [
-                "Nyolcas csomó",
-                "Palstek (Bowline)"
+                "22david22"
             ]
         },
         {
-            "question": "Szereted a régi, hagyományos megoldásokat?",
+            "question": "Zavar, ha valaki túlpörög, és inkább visszafognád a tempót?",
             "yes": [
-                "Pákász-csomó",
-                "Horgonycsomó"
+                "Mircica"
             ]
         },
         {
-            "question": "Rugalmas vagy, és könnyen alkalmazkodsz új helyzetekhez?",
+            "question": "Fontos számodra, hogy ne egyetlen ember irányítsa a beszélgetést?",
             "yes": [
-                "Csúszócsomó",
-                "Két félcsomó"
+                "gyenesdora0"
             ]
         },
         {
-            "question": "Erősen tartasz, még ha nagy terhelés alatt is vagy?",
+            "question": "Élvezed, ha kicsit provokatívan lehet irányítani a vibe-ot?",
             "yes": [
-                "Dupla halászcsomó",
-                "Alpesi pillangó"
+                "22david22"
             ]
         },
         {
-            "question": "Kedveled az egyszerűséget és az eleganciát?",
+            "question": "Gyakran próbálod kiegyensúlyozni a hangulatot, amikor elszabadul?",
             "yes": [
-                "Palstek (Bowline)",
-                "Nyolcas csomó"
+                "Mircica",
+                "gyenesdora0"
             ]
         },
         {
-            "question": "Gyakran vállalsz támogató, háttérszerepet?",
+            "question": "Szeretsz rendszerszinten gondolkodni arról, hogyan működik egy beszélgetés?",
             "yes": [
-                "Két félcsomó",
-                "Pákász-csomó"
+                "gyenesdora0"
             ]
         },
         {
-            "question": "Szereted, ha gyorsan és praktikusan működnek a dolgok?",
+            "question": "Ha valaki azt mondja 'big W', azonnal érzed az energiát?",
             "yes": [
-                "Csúszócsomó",
-                "Két félcsomó"
+                "22david22"
             ]
         },
         {
-            "question": "Kreatív és sokoldalú személyiségnek tartod magad?",
+            "question": "Szerinted a chill állapot hosszú távon egészségesebb, mint a nonstop hype?",
             "yes": [
-                "Alpesi pillangó",
-                "Palstek (Bowline)"
+                "Mircica"
             ]
         },
         {
-            "question": "Fontos, hogy könnyen kioldható legyél?",
+            "question": "Nem szeretsz oldalt választani vitákban?",
             "yes": [
-                "Csúszócsomó",
-                "Palstek (Bowline)"
+                "gyenesdora0"
             ]
         },
         {
-            "question": "Megbízható vagy extrém körülmények között is?",
+            "question": "Számodra a beszélgetés akkor jó, ha van benne egy kis káosz is?",
             "yes": [
-                "Dupla halászcsomó",
-                "Alpesi pillangó"
+                "22david22"
             ]
         },
         {
-            "question": "Szeretsz összekötni és kapcsolatokat létrehozni emberek között?",
+            "question": "Előfordul, hogy direkt visszahúzod a hangulatot, hogy stabil maradjon?",
             "yes": [
-                "Dupla halászcsomó",
-                "Horgonycsomó"
+                "Mircica"
             ]
         },
         {
-            "question": "Fontos számodra a rend és a szabályosság?",
+            "question": "Fontosnak tartod a szabályok és keretek tisztázását?",
             "yes": [
-                "Nyolcas csomó",
-                "Alpesi pillangó"
+                "gyenesdora0"
             ]
         },
         {
-            "question": "Gyakran segítesz másoknak elindulni vagy biztos pontot nyújtani?",
+            "question": "Ha lehetne admin jogod a beszélgetés felett, élnél vele?",
             "yes": [
-                "Horgonycsomó",
-                "Palstek (Bowline)"
+                "22david22"
             ]
         },
         {
-            "question": "Szereted a gyors, ideiglenes megoldásokat?",
+            "question": "Fontos neked, hogy mindenki komfortosan érezze magát a chatben?",
             "yes": [
-                "Csúszócsomó",
-                "Két félcsomó"
+                "Mircica",
+                "gyenesdora0"
             ]
         },
         {
-            "question": "Hajlamos vagy inkább kitartani, mint feladni?",
+            "question": "Inkább te alakítod a vibe-ot, mintsem alkalmazkodsz hozzá?",
             "yes": [
-                "Dupla halászcsomó",
-                "Pákász-csomó"
+                "22david22"
             ]
         }
     ]
